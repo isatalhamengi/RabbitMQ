@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Direct.Exchange.Pu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Direct.Exchange.Consumer", "RabbitMQ.Direct.Exchange.Consumer\RabbitMQ.Direct.Exchange.Consumer.csproj", "{0EA647DA-4F7E-4F6B-A95D-B416D5548D1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Fanout.Exchange.Publisher", "RabbitMQ.Fanout.Exchange.Publisher\RabbitMQ.Fanout.Exchange.Publisher.csproj", "{DFE7282A-550C-4DFB-A23C-EE26E3D32BAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Fanout.Exchange.Consumer", "RabbitMQ.Fanout.Exchange.Consumer\RabbitMQ.Fanout.Exchange.Consumer.csproj", "{5724FBC7-2F71-4D2A-8039-01AEEA6E11BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{0EA647DA-4F7E-4F6B-A95D-B416D5548D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EA647DA-4F7E-4F6B-A95D-B416D5548D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EA647DA-4F7E-4F6B-A95D-B416D5548D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE7282A-550C-4DFB-A23C-EE26E3D32BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE7282A-550C-4DFB-A23C-EE26E3D32BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE7282A-550C-4DFB-A23C-EE26E3D32BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE7282A-550C-4DFB-A23C-EE26E3D32BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5724FBC7-2F71-4D2A-8039-01AEEA6E11BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5724FBC7-2F71-4D2A-8039-01AEEA6E11BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5724FBC7-2F71-4D2A-8039-01AEEA6E11BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5724FBC7-2F71-4D2A-8039-01AEEA6E11BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
